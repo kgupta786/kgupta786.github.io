@@ -609,13 +609,11 @@
     .wtditem-1{
         width: 330px;
         height: 400px;
-        /* margin: 1rem 2rem; */
+        /* margin: 1rem 1rem; */
         box-shadow: 5px 5px 10px black;
         background-color: #242526;
         list-style-type: none;
         margin-top: 2rem;
-        /* margin-left: 2.5rem; */
-        margin: 2rem 2.5rem;
     }
     
     
