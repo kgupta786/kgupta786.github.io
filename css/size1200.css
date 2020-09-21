@@ -130,10 +130,10 @@ top: 0px; */
 
 .introduction{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    margin-left: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
     /* position: relative    ; */
     /* height: 800px; */
 }
@@ -142,8 +142,9 @@ top: 0px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
-    max-width: 80rem;
+    align-items: center;
+    max-width: 85rem;
+    margin-left: 9rem;
     
 }
 
@@ -151,9 +152,9 @@ top: 0px; */
     /* color: whitesmoke; */
     color: #B8BBBF;
     font-family: Product-sans;
-    font-size: 10.5rem;
+    font-size: 7.5rem;
     font-weight: bolder;
-    margin: 30px 30px;
+    margin: 10px 30px;
     /* font-size: 4rem; */
 }
 .keshav{
@@ -164,7 +165,7 @@ top: 0px; */
 }
 
 .div-para2{
-    margin-left: 8rem;
+    margin-left: 1rem;
     text-align: justify;
 }
 
@@ -191,7 +192,8 @@ color: whitesmoke;
 
 .intro-text div .para2{
     font-family: Product-sans;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-right: 1rem;
   /* padding: 20px; */
 
     color: #E7E9ED;
@@ -220,10 +222,10 @@ color: whitesmoke;
 
 
 .img1{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-left: 10rem;
-    margin-top: 15rem;
+    margin-top: 1rem;
     
 /* align-self: center; */
 /* justify-self: center; */
@@ -261,8 +263,9 @@ top: 40px;
 
 .intro-hline{
     color: #333333; 
-    width: 20rem; 
-    margin: 60px 660px;
+    width: 30rem; 
+    margin: 60px auto;
+    visibility: hidden;
 }
 
 /* .checkbox:checked~ .navigation{
@@ -341,6 +344,7 @@ margin: 2rem 2rem;
 
 .education{
     font-family: Product-sans;
+    margin-left: 10rem;
 }
 
 .sidebar-text{
@@ -352,10 +356,11 @@ margin: 2rem 2rem;
 }
 .education-heading{
     color: whitesmoke;
-    font-size: 6rem;
-    text-align: center;
+    font-size: 5rem;
+    /* text-align: center; */
     font-weight: bolder;
     color: whitesmoke;
+   /* margin-left: 10rem; */
 }
 .education-links{
     color: whitesmoke;
@@ -363,14 +368,15 @@ margin: 2rem 2rem;
     flex-direction: column;
     justify-content: space-evenly;
     position: relative;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 0.5rem;
-    margin-left: 8rem;
+    margin-left: 1rem;
 
 }
 
 .education-links>:first-child{
     align-self: flex-start;
+    margin-left: 2rem;
 }
 .education-links>:last-child{
     align-self: flex-start;
@@ -560,7 +566,7 @@ margin: 2rem 2rem;
 
 .experience-heading{
     color: lightslategray;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
     font-weight: bolder;
     color: lightslategray;
@@ -569,7 +575,7 @@ margin: 2rem 2rem;
 
 .wtd{
     font-family: Product-sans;
-    margin-left: 4rem;
+    margin-left: 9.5rem;
     /* display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -577,7 +583,7 @@ margin: 2rem 2rem;
 }
 
 .wtd-heading{
-font-size: 6rem;
+font-size: 5rem;
 text-align: center;
 font-weight: bolder;
 color: lightsteelblue;
@@ -595,8 +601,8 @@ color: lightsteelblue;
 
 
 .wtditem-1{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     box-shadow: 5px 5px 10px black;
     background-color: #242526;
     list-style-type: none;
@@ -604,7 +610,7 @@ color: lightsteelblue;
 
 
 .wtd-image{
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 1rem 2rem;
     color: #E7E9ED;
 }
@@ -612,7 +618,7 @@ color: lightsteelblue;
 .wtd-content{
 
     color: lightblue;
-font-size: 2rem;
+font-size: 1.5rem;
 text-align: justify;
 padding: 1rem 1rem;
 
@@ -641,7 +647,7 @@ margin-top: 1rem;
 
 .skill-search{
     font-family: Product-sans;
-    margin-left: 8rem;
+    margin-left: 9.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -651,29 +657,29 @@ margin-top: 1rem;
 
 
 .skills{
-    width: 500px;
-    height: 430px;
+    width: 400px;
+    height: 400px;
     box-shadow: 5px 5px 10px black;
     background-color: #242526;
 }
 
 .research{
-    width: 500px;
-    height: 430px;
+    width: 400px;
+    height: 400px;
     box-shadow: 5px 5px 10px black;
     background-color: #242526;
 }
 
 
 .skills-heading{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin: 2rem auto;
     color: lightyellow;
 }
 
 .research-heading{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin: 2rem auto;
     color:lightgreen;
@@ -691,7 +697,7 @@ align-items: flex-start;
 margin-left: 9rem;
 }
 .skillset-item{
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -743,15 +749,15 @@ color: gold;
     align-items: center; */
     margin: 2rem 2rem;
 text-align: justify;
-font-size: 2rem;
+font-size: 1.7rem;
 }
 
 .project-comp{
     font-family: Product-sans;
-    margin-left: 8rem;
+    margin-left: 9rem;
 }
 .project-heading{
-    font-size: 6rem;
+    font-size: 5rem;
     color: lightcyan;
     text-align: center;
 }
@@ -769,7 +775,7 @@ font-size: 2rem;
 
 
 .project-item:nth-child(odd){
-    width: 1000px;
+    width: 850px;
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -781,7 +787,7 @@ font-size: 2rem;
 }
 
 .project-item:nth-child(even){
-    width: 1000px;
+    width: 850px;
     height: 200px;
     display: flex;
     flex-direction: row-reverse;
@@ -797,7 +803,7 @@ font-size: 2rem;
     height: 200px;
         box-shadow: 5px 5px 10px black;
     background-color: #242526;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #E7E9ED;
     /* display: inline; */
