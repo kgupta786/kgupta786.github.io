@@ -2,7 +2,7 @@
     *{
         margin: 0px;
         padding: 0px;
-        
+        /* box-sizing: content-box; */
       
     }
     
@@ -77,7 +77,7 @@
         color: #B8BBBF;
     }
     .social-media ul li{
-        /* list-style-type: none; */
+        list-style-type: none;
         margin: 0.5rem 2rem;
         padding: 1rem 0rem;
     }
@@ -135,11 +135,12 @@
     .introduction{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-content: stretch;
-        margin-left: 0rem;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* width: 360px; */
+        /* margin-left: 0rem; */
         /* position: relative    ; */
-        /* height: 800px; */
+        /* height: 600px; */
     }
 
     
@@ -189,7 +190,7 @@
     }
     .div-para2{
         display: block;
-        margin: 5px 5px;
+        /* margin: 5px 5px; */
         padding: 1rem 1rem;
         text-align: justify;
         /* align-self: stretch; */
@@ -198,11 +199,6 @@
     .intro-text div .para2{
         font-family: Product-sans;
         font-size: 2rem;
-        
-      /* padding: 10px; */
-    /* padding-left: 2px; */
-    /* padding-right: 10px; */
-    /* margin-right: 20px; */
         color: #E7E9ED;
     }
 
@@ -220,9 +216,9 @@
     
     
     .img1{
-        width: 100px;
-        height: 100px;
-        margin-top: 6rem;
+        width: 150px;
+        height: 150px;
+        margin-top: 4rem;
         /* margin-right: 3rem; */
         border: 20px double lightyellow;;
         border-radius: 250px;
@@ -346,7 +342,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-content: center;
+        align-items: center;
         /* position: fixed; */
     }
     
@@ -355,6 +351,7 @@
         font-size: 3rem;
         /* text-align: center; */
         font-weight: bolder;
+        margin-bottom: 2rem ;
         /* margin: 10px 40px; */
         color: lightcoral;
     }
@@ -372,12 +369,13 @@
     
     .education-card{
         
-        width: 35rem;
+        width: 33rem;
         height: 17rem;
         box-shadow: 5px 5px 10px black;
         background-color: #242526;
         list-style-type: none;
-        /* margin: 1.5rem 1rem; */
+
+        margin: 1.5rem 1rem;
     }
     
     .education-links>:first-child{
@@ -580,15 +578,15 @@
         margin-left: 1.5rem;
         /* margin-top: 100px; */
         position: relative;
-        /* display: flex;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
-        align-content: center; */
+        align-items: center;
     }
     
     .wtd-heading{
     font-size: 3rem;
-    text-align: center;
+    /* text-align: center; */
     font-weight: bolder;
     color: lightcyan;
     }
@@ -598,22 +596,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 1rem ;
-        width: 90%;
-        height: 400px;
-        margin-top: 250px;
+        /* margin-left: 1rem ; */
+        width: 300px;
+        /* height: 400px; */
+        /* margin-top: 250px; */
         /* border: 1px solid white; */
     }
     
     
     .wtditem-1{
-        width: 330px;
-        height: 400px;
-        /* margin: 1rem 1rem; */
+        width: 300px;
+        height: 300px;
+        /* margin: 1rem 2rem; */
         box-shadow: 5px 5px 10px black;
         background-color: #242526;
         list-style-type: none;
         margin-top: 2rem;
+        /* margin-left: 2.5rem; */
+        margin: 2rem 2.5rem;
     }
     
     
@@ -664,7 +664,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 15rem;
+        margin-top: 1rem;
     }
     
     
@@ -819,7 +819,7 @@
        
         width: 330px;
         height: 100px;
-            box-shadow: -1px -1px 10px black;
+            box-shadow: 1px 1px 10px black;
         background-color: #242526;
         font-size: 1.5rem;
         text-align: center;
@@ -856,7 +856,7 @@
         width: 330px;
         height: 300px;
         /* border-left: 2px solid lightsalmon; */
-        box-shadow: -1px -1px 10px black;
+        box-shadow: 1px 1px 10px black;
         background-color: #242526;
         /* display: inline; */
     }
@@ -866,7 +866,7 @@
         width: 330px;
         height: 300px;
         /* border-left: 2px solid lightsalmon; */
-        box-shadow: -1px 1px 10px black;
+        box-shadow: 1px 1px 10px black;
         background-color: #242526;
         /* display: inline; */
     }

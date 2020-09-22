@@ -79,7 +79,7 @@ justify-content: space-between;
     color: #B8BBBF;
 }
 .social-media ul li{
-    /* list-style-type: none; */
+    list-style-type: none;
     margin: 0.5rem 2rem;
     padding: 1rem 0rem;
 }
